@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style> 
+    body{
+      background-color: #6262c9;
+    }
+      h1{
+        color: #808080;
+      }
+    </style>
+</head>
+<body> 
+    <h1>CSS grid examples</h1>
+    <p> here are some examples of css grid online. Here is a list of some of them</p>
+    <ul>
+      <li><a href="https://gridbyexample.com/examples/">Css grid</a> by rachel andrew</li>
+    </ul>
+</body>
