@@ -68,11 +68,69 @@
       font-size:large;
       text-decoration: none;
     }
+    body {
+      /* reset */
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background: #0a2012;
+      padding: 10px;
+    }
+
+    nav button {
+      background-color: #0a2012;
+      color: #eae7e7;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+    }
+
+    .dropdown {
+      display: none;
+      background: #0a2012;
+    }
+
+    .dropdown.show {
+      display: block;
+    }
+
+    .dropdown a {
+      color: #fff;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown a:hover {
+      background: #afa49c;
+    }
+    .rotate {
+      transform: rotate(180deg);
+    }
   </style>
 </head>
 
 <body>
   <header>
+    <nav>
+      <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
+      <button onclick="toggleMenu()">Menu &#9662;</button>
+      <div class="dropdown" id="menu">
+        <a href="../cs-spr25/index.html">Home</a>
+        <a href="../cs-spr25/website/pages/chris-bio.html">Chris Wagner Bio</a>
+        <a href="../cs-spr25/website/pages/anderson-fam.html">Anderson</a>
+        <a href="../cs-spr25/website/pages/wagner-fam.html">Wagner</a>
+        <a href="../cs-spr25/website/pages/kimpton-fam.html">Kimpton</a>
+        <a href="../cs-spr25/website/pages/headwaters-fam.html">Headwaters</a>
+        <a href="../cs-spr25/website/pages/saito-fam.html">Saito</a>
+        <a href="../cs-spr25/website/pages/dale-chihuly.html">Dale Chihuly</a>
+      </div>
+    </nav>
+
     <div>
       <h1>Forest Park</h1>
       <h2>B U I L D E R S , I N C</h2>
@@ -83,15 +141,27 @@
       <p>This website will showcase previous home remodels and new custom built homes. Simply click on the name of the
         project and it will take you to a photo portfolio with descriptions/captions for each photo.</p>
     </div>
+
     <div class=home>
-     <p><a href="../website/pages/anderson-fam.html">Anderson Family Home</a></p>
-     <p><a href="../website/pages/wagner-fam.html">Wagner Family Home</a></p>
-     <p><a href="../website/pages/kimpton-fam.html">Kimpton Family Home</a></p>
-     <p><a href="../website/pages/headwaters-fam.html">Headwaters Family Home</a></p>
-     <p><a href="../website/pages/saito-fam.html">Saito Family Home</a></p>
-     <p><a href="../website/pages/dale-chihuly.html">Dale Chihuly's Studio</a></p>
+     <p><a href="../cs-spr25/website/pages/anderson-fam.html">Anderson Family Home</a></p>
+     <p><a href="../cs-spr25/website/pages/wagner-fam.html">Wagner Family Home</a></p>
+     <p><a href="../cs-spr25/website/pages/kimpton-fam.html">Kimpton Family Home</a></p>
+     <p><a href="../cs-spr25/website/pages/headwaters-fam.html">Headwaters Family Home</a></p>
+     <p><a href="../cs-spr25/website/pages/saito-fam.html">Saito Family Home</a></p>
+     <p><a href="../cs-spr25/website/pages/dale-chihuly.html">Dale Chihuly's Studio</a></p>
     </div>
   </header>
+  <!-- 
+    Scripts are often in the <head> </head> or just before the closing body tag.
+    Putting at the bottom helps ensure that the script runs after the DOM (think "page") is loaded. 
+  -->
+  <script>
+    function toggleMenu() {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+      // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
 </body>
 
 </html>

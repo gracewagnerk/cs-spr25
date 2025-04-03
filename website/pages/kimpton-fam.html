@@ -20,11 +20,83 @@
         font-family: "Judson", serif;
         text-align: center;
     }
+    body{
+        background-color: #F5F4F4;
+    }
+    h1 {
+        font-family: "Judson", serif;
+        text-align: center;
+        color: #094520;
+        letter-spacing: 0.5rem;
+    }
+    img {
+        text-align: center;
+    }
+    div {
+        text-align: center;
+    }
+    nav {
+      background: #0a2012;
+      padding: 10px;
+    }
+    nav button {
+      background-color: #0a2012;
+      color: #eae7e7;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+    }
+
+    .dropdown {
+      display: none;
+      background: #0a2012;
+    }
+
+    .dropdown.show {
+      display: block;
+    }
+
+    .dropdown a {
+      color: #fff;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown a:hover {
+      background: #afa49c;
+    }
+    .rotate {
+      transform: rotate(180deg);
+    }
   </style>
 </head>
 <body>
     <header>
+        <nav>
+          <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
+          <button onclick="toggleMenu()">Menu &#9662;</button>
+          <div class="dropdown" id="menu">
+            <a href="../../index.html">Home</a>
+              <a href="../pages/chris-bio.html">Chris Wagner Bio</a>
+              <a href="../pages/anderson-fam.html">Anderson</a>
+              <a href="../pages/wagner-fam.html">Wagner</a>
+              <a href="../pages/kimpton-fam.html">Kimpton</a>
+              <a href="../pages/headwaters-fam.html">Headwaters</a>
+              <a href="../pages/saito-fam.html">Saito</a>
+              <a href="../pages/dale-chihuly.html">Dale Chihuly</a>
+          </div>
+        </nav>
         <h1>Kimpton Family Home</h1>
     </header>
+    <script>
+      function toggleMenu() {
+        // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+        // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+        document.getElementById("menu").classList.toggle("show");
+      }
+    </script>
 </body>
 </html>
