@@ -48,7 +48,7 @@
     .dropdown a:hover {
       background: #666;
     }
-
+  
     .rotate {
       transform: rotate(180deg);
     }
@@ -67,7 +67,10 @@
       <a href="#">Page3</a>
     </div>
   </nav>
-
+ <!-- 
+    Scripts are often in the <head> </head> or just before the closing body tag.
+    Putting at the bottom helps ensure that the script runs after the DOM (think "page") is loaded. 
+  -->
   <script>
     function toggleMenu() {
       document.getElementById("menu").classList.toggle("show");
