@@ -7,124 +7,20 @@
   <title>forest park builders, inc.</title>
 
   <!--font links so you can use these fonts later on THIS page-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Junge&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Junge&display=swap"
+    rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Junge&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Junge&display=swap"
+    rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
-  <style>
-    * { 
-      box-sizing: border-box;
-    }
-
-    div {
-      text-align: center;
-    }
-
-    button {
-      font-family: "Judson", serif;
-      font-size:large;
-    }
-
-    .home {
-      text-align: center;
-      flex-direction: column;
-      margin: 4rem;
-    }
-
-    body {
-      background-color: #F5F4F4;
-      /* reset */
-      margin: 0;
-      padding: 0;
-    }
-
-    h1 {
-      color: #164D10;
-      font-size: 5rem;
-      font-family: "Judson", serif;
-      font-weight: 200;
-    }
-
-    h2 {
-      color: #094520;  
-      font-family: "Judson", serif;
-      font-weight: 100;
-      letter-spacing: 0.5rem;
-    }
-
-    h3 {
-      color: #52371E;
-      font-family: "IM Fell DW Pica", serif;
-      font-weight: lighter;
-      font-style: italic;
-      letter-spacing: 0.5rem;
-    }
-
-    p {
-      font-size: larger;
-      font-family: "Judson", serif;
-    }
-    a {
-      color: #52371E;
-      font-family: "IM Fell DW Pica", serif;
-      font-size:large;
-      text-decoration: none;
-    }
-
-    nav {
-      background: #0a2012;
-      padding: 10px;
-    }
-
-    nav button {
-      background-color: #0a2012;
-      color: #eae7e7;
-      padding: 10px;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      text-align: left;
-    }
-
-    .dropdown {
-      display: none;
-      background: #0a2012;
-    }
-
-    .dropdown.show {
-      display: block;
-    }
-
-    .dropdown a {
-      color: #fff;
-      padding: 10px;
-      display: block;
-      text-decoration: none;
-    }
-
-    .dropdown a:hover {
-      background: #afa49c;
-    }
-
-    .rotate {
-      transform: rotate(180deg);
-    }
-
-    footer{
-      text-align: center;
-      font-size: large;
-      background-color: #e9e3df;
-      padding: 3rem;
-      font-family: "Judson", serif;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
@@ -133,18 +29,18 @@
       <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
       <button onclick="toggleMenu()">Menu &#9662;</button>
       <div class="dropdown" id="menu">
-        <a href="../cs-spr25/index.html">Home</a>
-        <a href="../cs-spr25/pages/chris-bio.html">Chris Wagner Bio</a>
-        <a href="../cs-spr25/pages/wagner-fam.html">Wagner</a>
-        <a href="../cs-spr25/pages/kimpton-fam.html">Kimpton</a>
-        <a href="../cs-spr25/pages/headwaters-fam.html">Headwaters</a>
-        <a href="../cs-spr25/pages/saito-fam.html">Saito</a>
-        <a href="../cs-spr25/pages/dale-chihuly.html">Dale Chihuly</a>
+        <a href="index.html">Home</a>
+        <a href="pages/chris-bio.html">Chris Wagner Bio</a>
+        <a href="pages/wagner-fam.html">Wagner</a>
+        <a href="pages/kimpton-fam.html">Kimpton</a>
+        <a href="pages/headwaters-fam.html">Headwaters</a>
+        <a href="pages/saito-fam.html">Saito</a>
+        <a href="pages/dale-chihuly.html">Dale Chihuly</a>
       </div>
     </nav>
 
     <div>
-      <img src="../cs-spr25/assets/images/logo.gif" alt="Forest Park Builders logo">
+      <img src="assets/images/logo.gif" alt="Forest Park Builders logo">
       <p>Owner Chris Wagner has been a builder for over 35 years. Forest Park Builders specializes in custom remodel,
         additions and new home construction. We work closely with the client to ensure complete satisfaction throughout
         the project.</p>
@@ -153,14 +49,20 @@
     </div>
 
     <div class=home>
-     <p><a href="../cs-spr25/pages/wagner-fam.html">Wagner Family Home</a></p>
-     <p><a href="../cs-spr25/pages/kimpton-fam.html">Kimpton Family Home</a></p>
-     <p><a href="../cs-spr25/pages/headwaters-fam.html">Headwaters Family Home</a></p>
-     <p><a href="../cs-spr25/pages/saito-fam.html">Saito Family Home</a></p>
-     <p><a href="../cs-spr25/pages/dale-chihuly.html">Dale Chihuly's Studio</a></p>
+      <p><a href="pages/wagner-fam.html">Wagner Family Home</a></p>
+      <p><a href="pages/kimpton-fam.html">Kimpton Family Home</a></p>
+      <p><a href="pages/headwaters-fam.html">Headwaters Family Home</a></p>
+      <p><a href="pages/saito-fam.html">Saito Family Home</a></p>
+      <p><a href="pages/dale-chihuly.html">Dale Chihuly's Studio</a></p>
     </div>
   </header>
-  <!-- 
+ 
+  <footer>
+    Contact Us Here
+    <p>(206)-514-1452</p>
+    <p>FPBI@comcast.net</p>
+  </footer>
+   <!-- 
     Scripts are often in the <head> </head> or just before the closing body tag.
     Putting at the bottom helps ensure that the script runs after the DOM (think "page") is loaded. 
   -->
@@ -171,11 +73,6 @@
       document.getElementById("menu").classList.toggle("show");
     }
   </script>
-  <footer>
-    Contact Us Here
-    <p>(206)-514-1452</p>
-   <p>FPBI@comcast.net</p>
-  </footer>
 </body>
 
 </html>

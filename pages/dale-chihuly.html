@@ -8,126 +8,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Junge&display=swap" rel="stylesheet">
-  
-  <style>
-    * { 
-      box-sizing: border-box;
-    }
-    body{
-        background-color: #F5F4F4;
-    }
-    h1 {
-        font-family: "Judson", serif;
-        text-align: center;
-        color: #094520;
-        letter-spacing: 0.5rem;
-    }
-    img {
-        text-align: center;
-    }
-    div {
-        text-align: center;
-    }
-    nav {
-      background: #0a2012;
-      padding: 10px;
-    }
-    nav button {
-      background-color: #0a2012;
-      color: #eae7e7;
-      padding: 10px;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      text-align: left;
-    }
-
-    .dropdown {
-      display: none;
-      background: #0a2012;
-    }
-
-    .dropdown.show {
-      display: block;
-    }
-
-    .dropdown a {
-      color: #fff;
-      padding: 10px;
-      display: block;
-      text-decoration: none;
-    }
-
-    .dropdown a:hover {
-      background: #afa49c;
-    }
-    .rotate {
-      transform: rotate(180deg);
-    }
-    body{
-        background-color: #F5F4F4;
-    }
-    h1 {
-        font-family: "Judson", serif;
-        text-align: center;
-        color: #094520;
-        letter-spacing: 0.5rem;
-    }
-    img {
-        text-align: center;
-    }
-    div {
-        text-align: center;
-    }
-    nav {
-      background: #0a2012;
-      padding: 10px;
-    }
-    nav button {
-      background-color: #0a2012;
-      color: #eae7e7;
-      padding: 10px;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      text-align: left;
-    }
-
-    .dropdown {
-      display: none;
-      background: #0a2012;
-    }
-
-    .dropdown.show {
-      display: block;
-    }
-
-    .dropdown a {
-      color: #fff;
-      padding: 10px;
-      display: block;
-      text-decoration: none;
-    }
-
-    .dropdown a:hover {
-      background: #afa49c;
-    }
-    .rotate {
-      transform: rotate(180deg);
-    }
-  </style>
+<link rel="stylesheet" href="../styles/pages.css">
 </head>
 <nav>
     <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
     <button onclick="toggleMenu()">Menu &#9662;</button>
     <div class="dropdown" id="menu">
       <a href="../index.html">Home</a>
-      <a href="../pages/chris-bio.html">Chris Wagner Bio</a>
-      <a href="../pages/wagner-fam.html">Wagner</a>
-      <a href="../pages/kimpton-fam.html">Kimpton</a>
-      <a href="../pages/headwaters-fam.html">Headwaters</a>
-      <a href="../pages/saito-fam.html">Saito</a>
-      <a href="../pages/dale-chihuly.html">Dale Chihuly</a>
+      <a href="chris-bio.html">Chris Wagner Bio</a>
+      <a href="wagner-fam.html">Wagner</a>
+      <a href="kimpton-fam.html">Kimpton</a>
+      <a href="headwaters-fam.html">Headwaters</a>
+      <a href="saito-fam.html">Saito</a>
+      <a href="dale-chihuly.html">Dale Chihuly</a>
     </div>
   </nav>
 <body>
@@ -147,5 +40,10 @@
           document.getElementById("menu").classList.toggle("show");
         }
       </script>
+      <footer>
+        Contact Us Here
+        <p>(206)-514-1452</p>
+       <p>FPBI@comcast.net</p>
+      </footer>
 </body>
 </html>

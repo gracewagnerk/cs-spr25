@@ -1,110 +1,68 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chris Wagner Bio</title>
-    <style>
-        * { 
-          box-sizing: border-box;
-        }
-
-        body{
-            background-color: #F5F4F4;
-        }
-
-        div {
-            text-align: center;
-        }
-
-        nav {
-          background: #0a2012;
-          padding: 10px;
-        }
-
-        nav button {
-          background-color: #0a2012;
-          color: #eae7e7;
-          padding: 10px;
-          border: none;
-          cursor: pointer;
-          width: 100%;
-          text-align: left;
-        }
-    
-        .dropdown {
-          display: none;
-          background: #0a2012;
-        }
-    
-        .dropdown.show {
-          display: block;
-        }
-    
-        .dropdown a {
-          color: #fff;
-          padding: 10px;
-          display: block;
-          text-decoration: none;
-        }
-    
-        .dropdown a:hover {
-          background: #afa49c;
-        }
-
-        h1 {
-            font-family: "Judson", serif;
-            text-align: center;
-            color: #094520;
-            letter-spacing: 0.5rem;
-        }
-        h2 {
-          color: #1f1d1b;
-          font-family: "IM Fell DW Pica", serif;
-          font-size:large;
-          text-decoration: none;
-          font-weight: lighter;
-        }
-        p{
-          text-align: center;
-        }
-      </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Wagner Bio</title>
+  <link rel="stylesheet" href="../styles/pages.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
-            <button onclick="toggleMenu()">Menu &#9662;</button>
-            <div class="dropdown" id="menu">
-              <a href="../index.html">Home</a>
-              <a href="../pages/chris-bio.html">Chris Wagner Bio</a>
-              <a href="../pages/wagner-fam.html">Wagner</a>
-              <a href="../pages/kimpton-fam.html">Kimpton</a>
-              <a href="../pages/headwaters-fam.html">Headwaters</a>
-              <a href="../pages/saito-fam.html">Saito</a>
-              <a href="../pages/dale-chihuly.html">Dale Chihuly</a>
-            </div>
-          </nav>
-          <h1>Chris Wagner Bio</h1>
-    </header>
-    <script>
-        function toggleMenu() {
-          // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
-          // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
-          document.getElementById("menu").classList.toggle("show");
-        }
-      </script>
-      <p>
-        <img src="../assets/images/dad-resize1.jpg">
-        <img src="../assets/images/dadresize.jpg">
-      </p>
-    <div class="flex-container">
-      <h2>D. Christopher Wagner is President and Lead Carpenter for Forest Park Builders, Inc. Chris started the business in October of 1991.</p>
-      He is responsible for all marketing, competitive bidding, material procurement and hiring for all subcontractor project engagements. Chris is also responsible for scheduling and project accounting.
-      Forest Park Builders, Inc. started with a mission statement, "Your Project is our Priority", for a truly customer relationship focused business. Starting with small intimate customer projects like basic home repairs, bathrooms and decks, Chris continued to grow the business towards larger scope projects including kitchens, whole house remodels and additions. New custom homes became something Chris was asked to provide by prior clients as his trust was intimate and proven. Large commercial projects were brought into the business model and several years of building Dale Chihuly's production and personal buildings brought new skillsets to the business. Forest Park Builders, Inc. today is a solely referral based business.
-      Chris attended Western Washington University and graduated from the School of Business in 1989 with a double major in Finance and Marketing. Chris is long time resident of Lake Forest Park and currently resides in a custom home he built for his family in 2004. Chris is an avid skier with his family and also enjoys playing ice hockey for the past 53 years. Chris has also volunteered and headed the Watch Dog Dads program in his kids grade school, coached baseball, softball, basketball and was Vice President for the Aqua Club Swim & Tennis facility.
-      Chris has been married for 23 years and has two college age children.</h2>
-    </div>
+  <header>
+    <nav>
+      <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
+      <button onclick="toggleMenu()">Menu &#9662;</button>
+      <div class="dropdown" id="menu">
+        <a href="../index.html">Home</a>
+        <a href="chris-bio.html">Chris Wagner Bio</a>
+        <a href="wagner-fam.html">Wagner</a>
+        <a href="kimpton-fam.html">Kimpton</a>
+        <a href="headwaters-fam.html">Headwaters</a>
+        <a href="saito-fam.html">Saito</a>
+        <a href="dale-chihuly.html">Dale Chihuly</a>
+      </div>
+    </nav>
+    <h1>Chris Wagner Bio</h1>
+  </header>
+
+  <p>
+    <img src="../assets/images/dad-resize1.jpg">
+    <img src="../assets/images/dadresize.jpg">
+  </p>
+  <!-- <div class="flex-container"> -->
+  <main>
+    <p>D. Christopher Wagner is President and Lead Carpenter for Forest Park Builders, Inc. Chris started the business
+      in October of 1991.</p>
+    <p>He is responsible for all marketing, competitive bidding, material procurement and hiring for all subcontractor
+      project engagements. Chris is also responsible for scheduling and project accounting.
+      Forest Park Builders, Inc. started with a mission statement, "Your Project is our Priority", for a truly customer
+      relationship focused business. Starting with small intimate customer projects like basic home repairs, bathrooms
+      and decks, Chris continued to grow the business towards larger scope projects including kitchens, whole house
+      remodels and additions. New custom homes became something Chris was asked to provide by prior clients as his trust
+      was intimate and proven. Large commercial projects were brought into the business model and several years of
+      building Dale Chihuly's production and personal buildings brought new skillsets to the business. Forest Park
+      Builders, Inc. today is a solely referral based business.</p>
+    <p>Chris attended Western Washington University and graduated from the School of Business in 1989 with a double
+      major in Finance and Marketing. Chris is long time resident of Lake Forest Park and currently resides in a custom
+      home he built for his family in 2004. Chris is an avid skier with his family and also enjoys playing ice hockey for the
+      past 53 years. Chris has also volunteered and headed the Watch Dog Dads program in his kids grade school, coached
+      baseball, softball, basketball and was Vice President for the Aqua Club Swim & Tennis facility.
+      Chris has been married for 23 years and has two college age children.</p>
+  </main>
+  <footer>
+    Contact Us Here
+    <p>(206)-514-1452</p>
+    <p>FPBI@comcast.net</p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+      // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
 </body>
 </body>
+
 </html>

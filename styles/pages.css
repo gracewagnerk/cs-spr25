@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #F5F4F4;
+  }
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  div {
+    text-align: center;
+  }
+
+  nav {
+    background: #0a2012;
+    padding: 10px;
+  }
+
+  nav button {
+    background-color: #0a2012;
+    color: #eae7e7;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown {
+    display: none;
+    background: #0a2012;
+  }
+
+  .dropdown.show {
+    display: block;
+  }
+
+  .dropdown a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .dropdown a:hover {
+    background: #afa49c;
+  }
+
+  h1 {
+    font-family: "Judson", serif;
+    text-align: center;
+    color: #094520;
+    letter-spacing: 0.5rem;
+  }
+
+  h2 {
+    color: #1f1d1b;
+    font-family: "IM Fell DW Pica", serif;
+    font-size: large;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    font-size: large;
+    background-color: #e9e3df;
+    padding: 3rem;
+    font-family: "Judson", serif;
+  }
