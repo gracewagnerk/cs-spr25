@@ -1,76 +1,83 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    background-color: #F5F4F4;
-  }
-  main {
-    max-width: 800px;
-    margin: auto;
-  }
-  div {
-    text-align: center;
-  }
+body {
+  background-color: #F5F4F4;
+}
 
-  nav {
-    background: #0a2012;
-    padding: 10px;
-  }
+main {
+  max-width: 800px;
+  margin: auto;
+}
 
-  nav button {
-    background-color: #0a2012;
-    color: #eae7e7;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-  }
+div {
+  text-align: center;
+}
 
-  .dropdown {
-    display: none;
-    background: #0a2012;
-  }
+nav {
+  background: #0a2012;
+  padding: 10px;
+}
 
-  .dropdown.show {
-    display: block;
-  }
+nav button {
+  background-color: #0a2012;
+  color: #eae7e7;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
 
-  .dropdown a {
-    color: #fff;
-    padding: 10px;
-    display: block;
-    text-decoration: none;
-  }
+.dropdown {
+  display: none;
+  background: #0a2012;
+}
 
-  .dropdown a:hover {
-    background: #afa49c;
-  }
+.dropdown.show {
+  display: block;
+}
 
-  h1 {
-    font-family: "Judson", serif;
-    text-align: center;
-    color: #094520;
-    letter-spacing: 0.5rem;
-  }
+.dropdown a {
+  color: #fff;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
 
-  h2 {
-    color: #1f1d1b;
-    font-family: "IM Fell DW Pica", serif;
-    font-size: large;
-    text-decoration: none;
-    font-weight: lighter;
-  }
+.dropdown a:hover {
+  background: #afa49c;
+}
 
-  p {
-    text-align: center;
-  }
+h1 {
+  font-family: "Judson", serif;
+  text-align: center;
+  color: #094520;
+  letter-spacing: 0.5rem;
+}
 
-  footer {
-    text-align: center;
-    font-size: large;
-    background-color: #e9e3df;
-    padding: 3rem;
-    font-family: "Judson", serif;
-  }
+h2 {
+  color: #1f1d1b;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: large;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: large;
+  background-color: #e9e3df;
+  padding: 3rem;
+  font-family: "Judson", serif;
+}

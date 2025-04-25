@@ -1,11 +1,15 @@
 * {
+    /* makes the math of sizing and stuff easier */
   box-sizing: border-box;
 }
 
 div {
   text-align: center;
 }
-
+img {
+  width: auto;
+  height: auto;
+}
 button {
   font-family: "Judson", serif;
   font-size: large;
@@ -90,10 +94,6 @@ nav button {
 
 .dropdown a:hover {
   background: #afa49c;
-}
-
-.rotate {
-  transform: rotate(180deg);
 }
 
 footer {

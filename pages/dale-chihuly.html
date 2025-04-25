@@ -1,49 +1,53 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dale Chihuly's Studio</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Junge&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../styles/pages.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Junge&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/pages.css">
 </head>
 <nav>
-    <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
-    <button onclick="toggleMenu()">Menu &#9662;</button>
-    <div class="dropdown" id="menu">
-      <a href="../index.html">Home</a>
-      <a href="chris-bio.html">Chris Wagner Bio</a>
-      <a href="wagner-fam.html">Wagner</a>
-      <a href="kimpton-fam.html">Kimpton</a>
-      <a href="headwaters-fam.html">Headwaters</a>
-      <a href="saito-fam.html">Saito</a>
-      <a href="dale-chihuly.html">Dale Chihuly</a>
-    </div>
-  </nav>
+  <!-- https://www.w3schools.com/charsets/ref_utf_geometric.asp -->
+  <button onclick="toggleMenu()">Menu &#9662;</button>
+  <div class="dropdown" id="menu">
+    <a href="../index.html">Home</a>
+    <a href="chris-bio.html">Chris Wagner Bio</a>
+    <a href="wagner-fam.html">Wagner</a>
+    <a href="kimpton-fam.html">Kimpton</a>
+    <a href="headwaters-fam.html">Headwaters</a>
+    <a href="saito-fam.html">Saito</a>
+    <a href="dale-chihuly.html">Dale Chihuly</a>
+  </div>
+</nav>
+
 <body>
-    <header>
-        <h1>Dale Chihuly's Studio</h1>
-    </header>
-    <div>
-  <img src="../assets/images/Chihuly Evelyn Dining Room.jpg"/>
-  <img src="../assets/images/Chihuly Hallway to Hot Shop.jpg"/>
-  <img src="../assets/images/Chihuly Private Collection Room.jpg"/>
-  <img src="../assets/images/dale-outside.webp"/>
-    </div>
-    <script>
-        function toggleMenu() {
-          // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
-          // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
-          document.getElementById("menu").classList.toggle("show");
-        }
-      </script>
-      <footer>
-        Contact Us Here
-        <p>(206)-514-1452</p>
-       <p>FPBI@comcast.net</p>
-      </footer>
+  <header>
+    <h1>Dale Chihuly's Studio</h1>
+  </header>
+  <div>
+    <img src="../assets/images/Chihuly Evelyn Dining Room.jpg" />
+    <img src="../assets/images/Chihuly Hallway to Hot Shop.jpg" />
+    <img src="../assets/images/Chihuly Private Collection Room.jpg" />
+    <img src="../assets/images/dale-outside.webp" />
+  </div>
+  <footer>
+    <p>Contact Us Here</p>
+    <p>(206)-514-1452</p>
+    <p>FPBI@comcast.net</p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+      // https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
 </body>
+
 </html>
