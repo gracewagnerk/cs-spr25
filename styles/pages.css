@@ -70,6 +70,10 @@ img {
   height: auto;
 }
 
+.chris-image{
+  max-width: 400px;
+}
+
 p {
   text-align: center;
 }
