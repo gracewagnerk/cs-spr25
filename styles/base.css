@@ -17,6 +17,12 @@ button {
   font-size: large;
 }
 
+menu {
+  /* reset */
+  margin: 0;
+  padding: 0;
+}
+
 .home {
   text-align: center;
   flex-direction: column;
